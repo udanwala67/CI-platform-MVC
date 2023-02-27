@@ -7,7 +7,7 @@ namespace CI_platform.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -22,8 +22,41 @@ namespace CI_platform.Controllers
         {
             return View();
         }
+        public IActionResult forgotpassword()
+        {
+            return View();
+        }
+        public IActionResult registration()
+        {
+            return View();
+        }
+        public IActionResult resetpassword()
+        {
+            return View();
+        }
+        public IActionResult platformlandingpage()
+        {
+            return View();
+        }
 
+        public IActionResult listview()
+        {
+            return View();
+        }
+        public IActionResult missionnotfound()
+        {
+            return View();
+        }
+        public IActionResult sharestory()
+        {
+            return View();
+        }
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult relatedmission()
         {
             return View();
         }
